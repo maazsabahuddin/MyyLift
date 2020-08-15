@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DriverBill">
+
+    <TextView
+        android:id="@+id/headerdriverbill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Of Customers"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/FirstCustomer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/secondcustomer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/thirdcustomer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/fourthcustomer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Bill"
+            android:id="@+id/billGeneration"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/backtodriverapprove"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="5dp"></Button>
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>

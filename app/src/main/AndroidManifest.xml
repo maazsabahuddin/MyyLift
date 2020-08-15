@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myylift">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Globals"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Driverroute" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GOOGLE_MAP_API_KEY" />
+
+        <activity android:name=".Driverhome" />
+        <activity android:name=".Customer_list_driver" />
+        <activity android:name=".customer_review" />
+        <activity android:name=".Customer_Status" />
+        <activity android:name=".DriverBill" />
+        <activity android:name=".DriverPersonBill" />
+        <activity android:name=".customer_request" />
+        <activity android:name=".activity_captain" />
+        <activity android:name=".activity_signup" />
+        <activity android:name=".DriverApprove" />
+        <activity android:name=".activity_customer" />
+        <activity android:name=".customerhome" />
+        <activity android:name=".MainActivity"/>
+
+    </application>
+
+</manifest>

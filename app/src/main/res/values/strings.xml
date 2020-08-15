@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyyLift</string>
+    <string name="GOOGLE_MAP_API_KEY">AIzaSyBGMDUUZM5fAXWOer1cvjgNIJxiCIdxwaA</string>
+    <string-array name="spinnerItems">
+        <item>Captain</item>
+        <item>Customer</item>
+
+    </string-array>
+    <string name="title_activity_customerhome">customerhome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_permission_denied">\"\"</string>
+    <string name="permission_required_toast">\"\"</string>
+    <string name="permission_rationale_location">\"\"</string>
+    <string name="open_location_settings">\"\"</string>
+    <string name="gps_network_not_enabled">\"\"</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_homecustomer">homecustomer</string>
+    <string name="title_activity_hcustomer">hcustomer</string>
+
+
+    <string name="radio_onTime">On Time</string>
+    <string name="radio_late">Late</string>
+    <string name="radio_notappeared">Did not appear</string>
+    <string name="btn_review">Review</string>
+</resources>
